@@ -20,11 +20,11 @@ Usage: ./scraper.py [-w WORKERS] [-b]
     -h          Show this help message
 ```
 Examples:
-'''
+```
 ./scraper.py          # top 10 stories using 16 threads
 ./scraper.py -w 4     # use 4 threads instead
 ./scraper.py -b       # benchmark all three versions
-'''
+```
 The script gets the IDs of the current top 500 stories, fetches each one, drops deleted posts and job listings, sorts by points, and shows the top 10.
 ## Demo
 ![Demo Image](demo.png)
