@@ -4,21 +4,21 @@ A small script to find the 10 highest-scoring stories currently on Hacker News. 
 
 ## Usage
 Requires Python3 and requests:
-'''
+```
 pip install requests
-'''
+```
 Run it with
-'''
+```
 python3 scraper.py
-'''
+```
 Options:
-'''
+```
 Usage: ./scraper.py [-w WORKERS] [-b]
 
     -w WORKERS  Number of threads (default: 16)
     -b          Compare imperative, functional, and concurrent versions
     -h          Show this help message
-'''
+```
 Examples:
 '''
 ./scraper.py          # top 10 stories using 16 threads
